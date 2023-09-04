@@ -8,7 +8,7 @@ const ClimaCard = ({clima,temp}) => {
   }
   return (
     <article className="menu_cli">
-      <h1 className="title_cli"><img src="public/gif/gifclima.gif" alt="" /></h1>
+      <h1 className="title_cli"><img src="/gif/gifclima.gif" alt="" /></h1>
       <h2 className="subtitle_cli">En {clima?.name},{clima?.sys.country}</h2>
       <div className="info_cli">
         <div className="menu_img_cli">
